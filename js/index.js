@@ -1,7 +1,8 @@
-window.onload = function () {
-    search();
-    secondKill();
-};
+console.log("helloworld");
+window.onload = function (){
+    search() ;
+    secondKill()
+} ;
 
 var search = function(){
     var search = document.getElementsByClassName('jd_header_box')[0];
